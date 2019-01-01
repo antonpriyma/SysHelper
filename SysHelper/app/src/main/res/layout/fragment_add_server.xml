@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/servers_toolbar1"
+        style="@style/toolbar"
+        android:titleTextColor="@color/colorSecondary"
+        android:subtitleTextColor="@color/colorSecondary"
+        android:navigationIcon="?attr/homeAsUpIndicator"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:targetApi="lollipop"
+        android:transitionName="shared_toolbar"/>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/layout_coordinator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <include layout="@layout/add_router_content" />
+
+</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

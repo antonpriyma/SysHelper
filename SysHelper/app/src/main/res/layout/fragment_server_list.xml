@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/colorPrimary"
+    tools:context=".ServerListActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/servers_toolbar"
+        style="@style/toolbar"
+        android:titleTextColor="@color/colorSecondary"
+        android:subtitleTextColor="@color/colorSecondary"
+        android:navigationIcon="?attr/homeAsUpIndicator"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:targetApi="lollipop"
+        android:transitionName="shared_toolbar"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/servers_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/servers_list"></android.support.v7.widget.RecyclerView>
+    <!--<TextView-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Test"/>-->
+
+
+
+</RelativeLayout>

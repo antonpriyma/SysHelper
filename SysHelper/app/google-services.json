@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "572793006702",
+    "firebase_url": "https://syshelper-d472b.firebaseio.com",
+    "project_id": "syshelper-d472b",
+    "storage_bucket": "syshelper-d472b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572793006702:android:a8069d1b2ef6319a",
+        "android_client_info": {
+          "package_name": "com.example.anton.syshelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572793006702-9qsa9omjl7c4a5go097dhg0r78psbiu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNrvwxMprndcFuJqzGj8tUmN91BXj_tKw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

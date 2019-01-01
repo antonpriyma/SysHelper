@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SysHelper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="server_string">Server</string>
+    <string name="host_string">host</string>
+    <string name="username_string">username</string>
+    <string name="password_string">password</string>
+    <string name="port_string">port</string>
+    <string name="send_string">send</string>
+    <string name="log_string">go test test1</string>
+    <string name="server_name_string">server name</string>
+</resources>

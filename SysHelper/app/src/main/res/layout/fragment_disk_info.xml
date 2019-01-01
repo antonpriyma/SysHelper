@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".DiskInfoFragment">
+    <RelativeLayout
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_centerInParent="true">
+    <com.budiyev.android.circularprogressbar.CircularProgressBar
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/progress_bar"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        app:animateProgress="true"
+        app:backgroundStrokeColor="@color/colorSecondaryDark"
+        app:backgroundStrokeWidth="1dp"
+        app:drawBackgroundStroke="true"
+        app:foregroundStrokeCap="butt"
+        app:foregroundStrokeColor="@color/colorSecondary"
+        app:foregroundStrokeWidth="4dp"
+        app:indeterminate="false"
+        app:indeterminateRotationAnimationDuration="2000"
+        app:indeterminateSweepAnimationDuration="2000"
+        app:indeterminateMinimumAngle="45"
+        app:maximum="100"
+        app:progress="30"
+        app:progressAnimationDuration="1200"
+        app:startAngle="270"></com.budiyev.android.circularprogressbar.CircularProgressBar>
+
+        <TextView
+            android:id="@+id/disk_usage_procent_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="77dp"
+            android:text="30%"
+            android:textSize="48dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/disk_usage_text_view"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:layout_below="@id/disk_usage_procent_text_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="0dp"
+            android:text="7.1GB"
+            android:gravity="start"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="60dp"
+            android:textAlignment="textStart"
+            android:textSize="18dp"
+            android:id="@+id/disk_size_text_view"
+            android:layout_height="wrap_content"
+           android:layout_toRightOf="@id/disk_usage_text_view"
+            android:layout_below="@id/disk_usage_procent_text_view"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorSecondaryDark"
+            android:text="/20GB"
+            android:gravity="start" />
+        <TextView
+            android:id="@+id/disk_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/dev/simfs"
+            android:layout_below="@id/disk_size_text_view"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+    <!--<TextView-->
+        <!--android:id="@+id/free_space_text_view"-->
+        <!--android:layout_width="74dp"-->
+        <!--android:layout_toRightOf="@id/disk_size_text_view"-->
+        <!--android:layout_height="93dp"-->
+        <!--android:layout_alignTop="@id/disk_size_text_view"-->
+        <!--android:textStyle="bold"-->
+
+
+        <!--android:text="@string/hello_blank_fragment"-->
+        <!--android:textSize="24dp" />-->
+
+</RelativeLayout>

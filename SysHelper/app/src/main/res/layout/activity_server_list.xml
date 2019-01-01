@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<android.support.v7.widget.Toolbar android:id="@+id/servers_toolbar"-->
+        <!--style="@style/toolbar"-->
+        <!--android:titleTextColor="@color/colorSecondary"-->
+        <!--android:subtitleTextColor="@color/colorSecondary"-->
+        <!--android:navigationIcon="?attr/homeAsUpIndicator"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--tools:targetApi="lollipop"-->
+        <!--xmlns:tools="http://schemas.android.com/tools" />-->
+
+
+    <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/servers_fragment_container"
+    android:background="@color/colorPrimary">
+
+
+
+</FrameLayout>
+</LinearLayout>
